@@ -5,7 +5,6 @@ import lombok.Getter;
 
 @Getter
 public class HologramTask {
-
     private final long delay;
     private final Runnable runnableTask;
 
@@ -13,5 +12,4 @@ public class HologramTask {
         this.delay = (long) unit.getMultiplierFromMillis() * delay;
         this.runnableTask = task;
     }
-
 }
