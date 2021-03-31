@@ -1,6 +1,5 @@
 package dev.gardeningtool.hologram.provider;
 
-import dev.gardeningtool.hologram.HologramManager;
 import dev.gardeningtool.hologram.object.Hologram;
 import org.bukkit.Bukkit;
 import org.bukkit.plugin.java.JavaPlugin;
@@ -18,7 +17,6 @@ public class HologramProvider {
 
     public HologramProvider(JavaPlugin plugin) {
         this.plugin = plugin;
-        HologramManager.registerHologramProvider(this, plugin);
     }
 
     public void registerHologram(Hologram hologram) {
