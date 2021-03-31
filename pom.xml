@@ -10,10 +10,6 @@
 
     <repositories>
         <repository>
-            <id>jitpack.io</id>
-            <url>https://jitpack.io</url>
-        </repository>
-        <repository>
             <id>funkemunky-releases</id>
             <url>https://nexus.funkemunky.cc/content/repositories/releases/</url>
         </repository>
@@ -25,13 +21,6 @@
     </properties>
 
     <dependencies>
-
-        <!-- Class Index -->
-        <dependency>
-            <groupId>org.atteo.classindex</groupId>
-            <artifactId>classindex</artifactId>
-            <version>3.4</version>
-        </dependency>
 
         <!-- Lombok -->
         <dependency>

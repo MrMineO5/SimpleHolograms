@@ -5,6 +5,7 @@ import org.bukkit.plugin.java.JavaPlugin;
 
 import java.util.HashMap;
 import java.util.Map;
+import java.util.Set;
 
 public final class HologramManager {
 
@@ -12,5 +13,9 @@ public final class HologramManager {
 
     public static void registerHologramProvider(HologramProvider hologramProvider, JavaPlugin javaPlugin) {
         providers.put(hologramProvider, javaPlugin);
+    }
+
+    public static Set<HologramProvider> getProviders() {
+        return providers.keySet();
     }
 }
