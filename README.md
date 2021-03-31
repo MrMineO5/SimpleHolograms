@@ -34,7 +34,7 @@ public class TestPlugin extends JavaPlugin implements Listener {
 And now for our event listener and hologram setup
 
 ```java
-public class ExampleListener {
+public class ExampleListener implements Listener {
 
     private final HologramProvider provider;
 
